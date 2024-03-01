@@ -6,6 +6,7 @@ defineProps<Stat>()
 
 <template>
   <span
+    class="text-sm"
     :class="{
       'text-red-400': 'red' === color,
       'text-blue-400': 'blue' === color
